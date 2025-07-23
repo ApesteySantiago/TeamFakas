@@ -1,0 +1,28 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: FrontEnd
+    ports:
+      - '3000:3000'
+    restart: unless-stopped
+    #volumes:
+    #  - ./frontend:/app
+    environment:
+      - NODE_ENV=production
+
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: BackEnd
+    ports:
+      - '4000:4000'
+    restart: unless-stopped
+    #volumes:
+    #  - ./backend:/app
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
