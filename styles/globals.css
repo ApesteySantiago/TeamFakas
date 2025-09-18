@@ -1,13 +1,27 @@
 @import "tailwindcss";
+@import url('https://fonts.cdnfonts.com/css/impact');
+@import url('https://fonts.cdnfonts.com/css/codec-pro');
 
-.body { 
+#titulo{ 
    font-family: Impact, sans-serif;
-   font-family: 'Impacted', sans-serif;
+   letter-spacing: 0px;
+   word-spacing: 0px;
+   color: #dd9c19;
+   font-size: 62px /* 3.75rem = 60px */;
 
 }
 
-.h2{
+#subtitulo{
    font-family: 'Codec Pro', sans-serif;
+   letter-spacing: 7px;
+   color: #dd9c19;
+   margin-top: -1rem;
+}
+
+#lista{
+   font-family: 'Codec Pro', sans-serif;
+   font-size: 0.70rem /* 8px */;
+   margin-left: 0.7rem /* 16px */;
 }
 
 .clip-left {

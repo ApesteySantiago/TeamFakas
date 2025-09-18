@@ -13,6 +13,8 @@ export default function Page() {
         <title>Welcome to TeamFakas</title>
         <meta name="description" content="Bienvenido a TeamFakas" />
         <meta name='stylesheet' content='styles/globals.css'/>
+        <link href="https://fonts.cdnfonts.com/css/impact?styles=138957" rel="stylesheet"></link>
+        <link href="https://fonts.cdnfonts.com/css/codec-pro" rel="stylesheet"></link>
       </Head>
       <body>
         <NavBar />
