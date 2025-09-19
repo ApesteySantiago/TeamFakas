@@ -4,13 +4,13 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-end fixed top-20 right-2 text-white z-50">
+    <nav className="flex justify-end fixed top-15 right-8 text-white z-50">
       {/* Botón hamburguesa */}
       <div className="relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
-          className="w-16 h-16 bg-gray-800 flex items-center justify-center rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-white"
+          className="w-10 h-12 bg-gray-800 flex items-center justify-center hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-white"
         >
           <svg
             className="h-6 w-6 text-white"
@@ -30,10 +30,10 @@ export default function Navbar() {
 
         {/* Opciones que salen sin agrandar el botón */}
         {isOpen && (
-          <div className="absolute top-full left-0 w-16 bg-gray-800 text-sm rounded-md shadow-lg">
+          <div id="boxMenu" className="absolute top-full left-0 w-11 text-sm shadow-lg">
             <a
               href="#"
-              className="block hover:bg-gray-700 px-2 py-1 text-center"
+              className="block px-2 py-1 text-center"
             >
               <svg
             className="h-6 w-6 text-white"

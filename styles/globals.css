@@ -2,6 +2,14 @@
 @import url('https://fonts.cdnfonts.com/css/impact');
 @import url('https://fonts.cdnfonts.com/css/codec-pro');
 
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-image: url('../public/Fondo.png');
+   overflow-x: hidden; /* Evita el scroll horizontal */
+}
+
 #titulo{ 
    font-family: Impact, sans-serif;
    letter-spacing: 0px;
@@ -22,6 +30,14 @@
    font-family: 'Codec Pro', sans-serif;
    font-size: 0.65rem /* 8px */;
    margin-left: 0.7rem /* 16px */;
+   color: #dd9c19;
+}
+
+#boxMenu{
+   background-color:#dd9c19; /* Color de fondo con opacidad */
+   border-radius: 0.375rem; /* Bordes redondeados */
+   backdrop-filter: blur(10px); /* Efecto de desenfoque */
+   -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
 }
 
 .clip-left {

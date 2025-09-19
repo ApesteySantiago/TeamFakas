@@ -19,6 +19,7 @@ export default function Page() {
       <body>
         <NavBar />
         <Principal />
+        
       </body>
     </>
   );
