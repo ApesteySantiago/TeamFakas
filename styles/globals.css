@@ -34,10 +34,14 @@ body {
 }
 
 #boxMenu{
-   background-color:#dd9c19; /* Color de fondo con opacidad */
+   background-color:#dd9c19;
    border-radius: 0.375rem; /* Bordes redondeados */
    backdrop-filter: blur(10px); /* Efecto de desenfoque */
    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
+}
+
+#botonMenu{
+   background-color:#dd9c19;
 }
 
 .clip-left {

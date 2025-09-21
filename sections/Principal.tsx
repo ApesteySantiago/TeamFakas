@@ -17,6 +17,7 @@ export default function Principal() {
         </h3>
       </motion.div>
       
+      
     </section>
   );
 }
