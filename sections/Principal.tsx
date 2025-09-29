@@ -1,6 +1,5 @@
 import { motion, useScroll } from "motion/react";
 
-
 export default function Principal() {
 
   return (
@@ -10,7 +9,8 @@ export default function Principal() {
       animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
       transition={{ duration: 1.5, ease: "easeOut" }} // tiempo y suavizado
       >
-        <h1 id="titulo" className="flex justify-start ml-8">TEAM FAKAS</h1>
+        <h1 id="titulo" className="flex justify-start ml-6">TEAM FAKAS</h1>
+        <img src="/logoTeamFakas.png" alt="logo" className="w-30 h-30 fixed justify-end top-0 end-0 " />
         <h2 id="subtitulo" className="flex justify-start ml-10">PERSONAL TRAINERS</h2>
         <h3 id="lista" className="flex justify-start">
         - Planificación Personalizada - Mindset - Nutrición - Seguimiento -

@@ -4,7 +4,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-end fixed top-21 right-7 text-white z-50">
+    <nav className="flex justify-end fixed top-30 right-5 text-white z-50">
       {/* Botón hamburguesa */}
       <div className="relative">
         <button
