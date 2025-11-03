@@ -12,9 +12,17 @@ export default function Section2() {
         <h1 id="titulo2" className="flex justify-center ml-0">ENTRENADORES</h1>
         <h2 id="subtitulo2" className="flex justify-center ml-0">QUIENES ESTAN DETRAS DE TEAMFAKAS</h2>
 
-        <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto"> 
-          <p>Somos un equipo de profesionales dedicados a ayudarte a alcanzar tus objetivos de fitness y bienestar.</p>
+        <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
+          <p>Somos un equipo profesional dedicado a brindarte herramientas y asesoría para alcanzar tus metas.</p>
         </div>
+
+        <div
+          id="entrenadores"
+          className="w-[90%] h-screen mx-auto mt-2 mb-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center flex items-center justify-center"
+        >
+          <p>Entrenadores</p>
+        </div>
+
 
 
       </motion.div>

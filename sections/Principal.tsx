@@ -43,7 +43,7 @@ export default function Principal() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="flex flex-col items-center justify-center mt-80"
+        className="flex flex-col items-center justify-center mt-60"
       >
         <img
           id="logo"

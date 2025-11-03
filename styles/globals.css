@@ -84,6 +84,16 @@ body {
    padding: 0.5rem;
 }
 
+#entrenadores {
+  background-image: url('../public/Fakas.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Codec Pro', sans-serif;
+  font-size: 1rem; /* 16px */
+  color: #ffffff;
+}
+
 #frase{
   font-family: Impact, sans-serif;
   letter-spacing: 2px;
