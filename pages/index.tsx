@@ -15,7 +15,7 @@ export default function Page() {
         <meta name='stylesheet' content='styles/globals.css'/>
       </Head>
       <body>
-        <NavBar />
+        
         <Principal />
         <Section2 />
         <Section3 />
