@@ -23,7 +23,7 @@ export default function Principal() {
         transition={{ duration: 1.5, ease: "easeOut" }}
         className="flex flex-col items-center justify-center mt-35"
       >
-        <div className="p-3 bg-white/5 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
+        <div className="p-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
           <h2
             id="frase"
             className="text-2xl md:text-4xl [text-shadow:_2px_2px_8px_rgba(0,0,0,0.8)]"
@@ -37,11 +37,11 @@ export default function Principal() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="flex flex-col items-start justify-start mt-60"
+        className="flex flex-col items-center justify-center mt-80"
       >
         <img
           id="logo"
-          className="w-50 h-50"
+          className="w-32 h-32"
           src="/logoTeamFakas.png"
           alt="LogoTeamFakas"
         />
