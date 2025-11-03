@@ -8,7 +8,7 @@ export default function Principal() {
       initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
       animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
       transition={{ duration: 1.5, ease: "easeOut" }} // tiempo y suavizado
-      className="flex flex-col bg-black/45 rounded-lg items-center justify-center"
+      className="flex flex-col bg-white/35 rounded-lg items-center justify-center"
       >
         <h1 id="titulo" className="flex justify-center ml-6">TEAM FAKAS</h1>
         <h2 id="subtitulo" className="flex justify-center ml-10">PERSONAL TRAINERS</h2>
