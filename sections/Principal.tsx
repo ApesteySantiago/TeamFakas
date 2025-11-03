@@ -21,9 +21,9 @@ export default function Principal() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
-        className="flex flex-col items-center justify-center mt-20"
+        className="flex flex-col items-center justify-center mt-35"
       >
-        <div className="p-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
+        <div className="p-3 bg-white/5 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
           <h2
             id="frase"
             className="text-2xl md:text-4xl [text-shadow:_2px_2px_8px_rgba(0,0,0,0.8)]"
