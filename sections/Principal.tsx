@@ -33,6 +33,20 @@ export default function Principal() {
         </div>
       </motion.div>
 
+      <motion.div
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        className="flex flex-col items-start justify-start mt-60"
+      >
+        <img
+          id="logo"
+          className="w-50 h-50"
+          src="/logoTeamFakas.png"
+          alt="LogoTeamFakas"
+        />
+      </motion.div>
+
 
     </section>
   );
