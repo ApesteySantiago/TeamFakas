@@ -23,7 +23,7 @@ export default function Principal() {
       transition={{ duration: 1.5, ease: "easeOut" }} // tiempo y suavizado
       className="flex flex-col items-center justify-center h-screen"
       >
-        <h2 id="frase" className="text-center text-2xl">¿Estás listo para tu mejor versión?</h2>
+        <h2 id="frase" className="text-center text-2xl">¿ESTAS LISTO PARA TU MEJOR VERSION?</h2>
 
       </motion.div>
 
