@@ -100,10 +100,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Codec Pro', sans-serif;
-  font-size: 0.8rem; /* 16px */
+  font-size: 0.6rem; /* 16px */
   color: #ffffff;
 }
 
+#tarjeta2{
+  background-image: url('../public/faka2.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Codec Pro', sans-serif;
+  font-size: 0.6rem; /* 16px */
+  color: #ffffff;
+}
 #frase{
   font-family: Impact, sans-serif;
   letter-spacing: 2px;

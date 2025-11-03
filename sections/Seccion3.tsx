@@ -1,28 +1,36 @@
+import { motion, useScroll } from "motion/react";
+
 export default function Section3() {
   return (
     <section id="section3" className="flex flex-col items-center ">
 
-      <div className="w-[90%] h-65 mx-auto mt-0 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-end flex flex-col items-end p-4" id="tarjeta1"
+      <div id="tarjeta1" className="w-[90%] h-65 mx-auto mt-0 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-end flex flex-col items-end p-4" 
       >
-        <p className="flex text-end mt-3 mr-10">FACUNDO ARIEL CEJAS</p>
+        <motion.div
+        initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
+        animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
+        transition={{ duration: 5, ease: "easeOut" }} // tiempo y suavizado
+        >
+          <p className="text-lg mt-3 mr-3">FACUNDO ARIEL CEJAS</p>
 
-        <p className="flex text-end">Entrenador Personal & Coach de Transformación Física</p>
+          <p className="text- mb-15">Entrenador Personal & Instructor en musculación</p>
 
-        <p className="flex text-end">✅ Certificación Internacional Mr. Olympia – Bodybuilding & Fitness Trainer</p>
+          <p className="">✅ Certificación Internacional Mr. Olympia – Bodybuilding & Fitness Trainer</p>
 
-        <p className="flex text-end">✅ Estudiante de Licenciatura en Nutrición (UNTREF)</p>
+          <p className="">✅ Certificación Internacional High Fitness Trainer</p>
 
-        <p className="flex text-end">✅ Especialista en entrenamiento de alta intensidad (Heavy Duty / Mentzer Style)</p>
+          <p className="">✅ Estudiante de Licenciatura en Nutrición (UNTREF)</p>
 
-        <p className="flex text-end">✅ Experiencia acompañando a personas con sobrepeso, estancamiento o recomposición corporal</p>
+          <p className="">✅ Especialista en entrenamiento de alta intensidad</p>
 
-        <p className="flex text-end">🔥 Filosofía: “El cuerpo cambia cuando tu mente deja de negociar con la comodidad.”</p>
+          <p className="">🔥 Filosofía: “El cuerpo cambia cuando tu mente deja de negociar con la comodidad.”</p>
+          </motion.div>
 
 
       </div>
       <div
-        id="entrenadores"
-        className="w-[90%] h-70 mx-auto mt-2 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center flex items-baseline justify-center"
+        id="tarjeta2"
+        className="w-[90%] h-65 mx-auto mt-2 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center flex items-baseline justify-center"
       >
         <p className="m-5">"TU LIMITE NO ES FISICO. ES MENTAL Y LO VAMOS A ROMPER."</p>
       </div>
