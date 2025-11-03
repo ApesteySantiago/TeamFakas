@@ -55,7 +55,7 @@ body {
 #subtitulo{
    font-family: 'Codec Pro', sans-serif;
    letter-spacing: 7px;
-   color: #dd9c19;
+   color: #ffffff;
    margin-top: -1rem;
 }
 
@@ -63,7 +63,7 @@ body {
    font-family: 'Codec Pro', sans-serif;
    font-size: 0.65rem /* 8px */;
    margin-left: 0.7rem /* 16px */;
-   color: #dd9c19;
+   color: #ffffff;
 }
 
 #boxMenu{
