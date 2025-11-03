@@ -20,7 +20,7 @@ export default function Section2() {
           id="entrenadores"
           className="w-[90%] h-140 mx-auto mt-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center flex items-baseline justify-center"
         >
-          <p className="mt-2">"El musculo se construye en el Gym, la mentalidad que lo sostiene tambien"</p>
+          <p className="m-5">"TU LIMITE NO ES FISICO. ES MENTAL Y LO VAMOS A ROMPER."</p>
         </div>
 
 

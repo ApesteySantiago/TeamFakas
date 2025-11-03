@@ -32,10 +32,10 @@ body {
 }
 
 #section3 {
-  background-image: url('../public/consuler2.png');
+  background-image: url('../public/Fondo_Gym.png');
   margin: 0;
   padding: 0;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -91,6 +91,16 @@ body {
   background-repeat: no-repeat;
   font-family: 'Codec Pro', sans-serif;
   font-size: 1rem; /* 16px */
+  color: #ffffff;
+}
+
+#tarjeta1{
+  background-image: url('../public/Faka1.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Codec Pro', sans-serif;
+  font-size: 0.8rem; /* 16px */
   color: #ffffff;
 }
 
