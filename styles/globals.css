@@ -6,9 +6,42 @@ body {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   background-image: url('../public/Fondo.png');
+   
    overflow-x: hidden; /* Evita el scroll horizontal */
 }
+
+#principal {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('/espalda.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#section2 {
+  background-image: url('../public/Fondo_Gym.png');
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+}
+
+#section3 {
+  background-image: url('../public/consuler2.png');
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+}
+
 
 #titulo{ 
    font-family: Impact, sans-serif;
