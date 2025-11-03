@@ -19,7 +19,6 @@ export default function Page() {
         <Principal />
         <Section2 />
         <Section3 />
-        <AcercaDe />
         <Footer />
         
       </body>

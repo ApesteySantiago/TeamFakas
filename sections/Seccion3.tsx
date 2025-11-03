@@ -16,7 +16,7 @@ export default function Section3() {
 
           <p className="text- mb-18">Entrenador Personal & Instructor en musculación</p>
 
-          <p className="">Certificación Internacional Mr. Olympia – Bodybuilding & Fitness Trainer.</p>
+          <p className="">Certificación Internacional Mr. Olympia - Bodybuilding & Fitness Trainer.</p>
 
           <p className="">Certificación Internacional High Fitness Trainer.</p>
 
