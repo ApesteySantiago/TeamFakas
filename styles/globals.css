@@ -59,6 +59,12 @@ body {
    margin-top: -1rem;
 }
 
+#frase{
+  font-family: Impact, sans-serif;
+   letter-spacing: 3px;
+   color: #ffffff;
+   margin-top: -15rem;}
+
 #lista{
    font-family: 'Codec Pro', sans-serif;
    font-size: 0.65rem /* 8px */;
