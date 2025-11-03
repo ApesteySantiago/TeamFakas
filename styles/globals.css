@@ -63,7 +63,10 @@ body {
   font-family: Impact, sans-serif;
    letter-spacing: 3px;
    color: #ff0000;
-   margin-top: -15rem;}
+   margin-top: -16rem;
+  margin-left: 2rem;
+  }
+
 
 #lista{
    font-family: 'Codec Pro', sans-serif;
