@@ -18,9 +18,9 @@ export default function Section2() {
 
         <div
           id="entrenadores"
-          className="w-[90%] h-screen mx-auto mt-2 mb-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center flex items-center justify-center"
+          className="w-[90%] h-140 mx-auto mt-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center flex items-center justify-center"
         >
-          <p>Entrenadores</p>
+          <p></p>
         </div>
 
 

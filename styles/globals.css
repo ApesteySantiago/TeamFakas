@@ -86,7 +86,7 @@ body {
 
 #entrenadores {
   background-image: url('../public/Fakas.png');
-  background-size: cover;
+  background-size: 100% ;
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Codec Pro', sans-serif;
