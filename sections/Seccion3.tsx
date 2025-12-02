@@ -37,7 +37,7 @@ export default function Section3() {
         initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
         animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
         transition={{ duration: 5, ease: "easeOut" }} // tiempo y suavizado
-        className="ml-3"
+        className="ml-3 p-3"
         >
           <p className="text-lg mt-5">FACUNDO PEDRO TRABA</p>
 
@@ -49,7 +49,7 @@ export default function Section3() {
 
           <p className="">Especialista en mentalidad, adherencia al plan y hábitos sostenibles.</p>
 
-          <p className="">Trabaja con procesos de superación personal, ansiedad de rendimiento y resiliencia deportiva.</p>
+          <p className="">Trabajo con procesos de superación personal, ansiedad de rendimiento y resiliencia deportiva.</p>
 
           <p className="">🔥 Filosofía: “La fuerza física sin fuerza mental no se sostiene en el tiempo.”</p>
           </motion.div>
