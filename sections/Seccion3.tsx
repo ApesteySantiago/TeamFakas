@@ -31,13 +31,13 @@ export default function Section3() {
       </div>
       <div
         id="tarjeta2"
-        className="w-[90%] h-65 mx-auto mt-2 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-start flex items-baseline justify-center"
+        className="w-[90%] h-65 mx-auto mt-2 mb-5 p-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-start flex items-baseline justify-center"
       >
         <motion.div
         initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
         animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
         transition={{ duration: 5, ease: "easeOut" }} // tiempo y suavizado
-        className="ml-3 p-3"
+        className="ml-3"
         >
           <p className="text-lg mt-5">FACUNDO PEDRO TRABA</p>
 
