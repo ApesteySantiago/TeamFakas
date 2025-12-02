@@ -13,10 +13,6 @@ export default function Section4() {
         <h2 id="subtitulo4" className="flex justify-center pt-2 ">QUEREMOS INCULCARTE EL ARTE DEL TREINO</h2>
 
         <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
-          <p>Somos un equipo profesional dedicado a entrenamiento, nutrición y mentalidad aplicados al desarrollo físico de alta intensidad.</p>
-        </div>
-
-        <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
           <h3 className="titulo-cards">📌ENTRENAMIENTO</h3>
           <p className="text-start">
 
