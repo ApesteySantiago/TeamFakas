@@ -5,6 +5,9 @@ import Section2 from '../sections/Seccion2';
 import Section3 from '../sections/Seccion3';
 import Section4 from '../sections/Seccion4';
 import Section5 from '../sections/Seccion5';
+import Section6 from '../sections/Seccion6';
+import Section7 from '../sections/Seccion8';
+import Section8 from '../sections/Seccion7';
 import AcercaDe from '../sections/AcercaDe';
 import Footer from '../sections/Footer';
 
@@ -23,6 +26,9 @@ export default function Page() {
         <Section3 />
         <Section4 />
         <Section5 />
+        <Section6 />
+        <Section7 />
+        <Section8 />
         <Footer />
         
       </body>

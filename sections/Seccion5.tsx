@@ -17,8 +17,8 @@ export default function Section5() {
           <p className="text-start ml-2">
 
             Incluye un mini manual de 5 hojas con:<br></br>
-            ✔ Rutina simple pero efectiva (fuerza + hipertrofia).<br></br>
-            ✔ Guía nutricional básica para mejorar tu composición corporal.<br></br>
+            ✔ Rutina de entrenamiento<br></br>
+            ✔ Guía nutricional básica<br></br>
             ✔ Conceptos de mentalidad del atleta: disciplina, constancia y enfoque.<br></br>
             ✔ Consejos para organizar tu semana y progresar sin estancarte.<br></br>
             ✔ Acceso a un grupo de difusión para recibir contenido semanal.<br></br></p>
@@ -29,11 +29,10 @@ export default function Section5() {
           <p className="text-start ml-2">
 
             Incluye:<br></br>
-            ✔ Plan de entrenamiento personalizado según objetivo.<br></br>
-            ✔ Guía nutricional general (no personalizada).<br></br>
+            ✔ Guía de entrenamiento personalizado según objetivo.<br></br>
+            ✔ Guía nutricional general<br></br>
             ✔ Lista de compras y guía de porciones.<br></br>
-            ✔ Acceso al grupo privado de Telegram.<br></br>
-            ✔ 1 consulta por chat al mes.<br></br>
+            ✔ 2 consultas por chat al mes.<br></br>
             ✔ Ajustes mensuales del plan de entrenamiento.<br></br></p>
         </div>
 
@@ -41,14 +40,17 @@ export default function Section5() {
           <h3 className="titulo-cards">🔥 STANDAR</h3>
           <p className="text-start ml-2">
             Incluye todo del Plan Básico y además:<br></br>
-            ✔ Plan nutricional personalizado con cálculo de macros.<br></br>
+            ✔ Guía de nutricional personalizada dependiendo del objetivo<br></br>
             ✔ Correcciones de técnica por video 1 vez por semana.<br></br>
             ✔ Ajustes quincenales del entrenamiento y la dieta.<br></br>
+            
             ✔ Soporte por chat 24/48 h (respuesta asegurada).<br></br>
             Material exclusivo:<br></br>
             - Técnicas de alta intensidad<br></br>
             - Guía de suplementos basada en evidencia<br></br>
-            - Psicología aplicada al entrenamiento (counseling)<br></br></p>
+            - Psicología aplicada al entrenamiento (counseling)<br></br>
+            ✔ 2 consultorias de 50 min. (counseling)<br></br></p>
+            
         </div>
 
         <div id="descripcion" className="mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
@@ -60,7 +62,7 @@ export default function Section5() {
             ✔ Videollamada mensual (nutrición + entrenamiento + mentalidad).<br></br>
             ✔ Ajustes semanales de dieta y entrenamiento.<br></br>
             ✔ Planificación mensual tipo “programación de atleta”.<br></br>
-            Material avanzado:<br></br>
+            Material avanzado+<br></br>
             - Biomecánica aplicada por ejercicio<br></br>
             - Psicología de la alta exigencia<br></br>
             - Estrategias de recomposición rápida<br></br>
