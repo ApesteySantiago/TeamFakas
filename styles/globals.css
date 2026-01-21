@@ -2,6 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/impact');
 @import url('https://fonts.cdnfonts.com/css/codec-pro');
 @import "tailwindcss";
+
 body {
    margin: 0;
    padding: 0;
@@ -65,10 +66,10 @@ body {
 }
 
 #section6 {
-  background-image: url('../public/acercade2.jpg');
+  background-image: url('../public/mujer_vs_ia.png');
   margin: 0;
   padding: 0;
-  background-size: 130% 100%;
+  background-size: 120% 100%;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
