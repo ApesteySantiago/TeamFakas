@@ -6,8 +6,8 @@ import Section3 from '../sections/Seccion3';
 import Section4 from '../sections/Seccion4';
 import Section5 from '../sections/Seccion5';
 import Section6 from '../sections/Seccion6';
-import Section7 from '../sections/Seccion8';
-import Section8 from '../sections/Seccion7';
+import Section7 from '../sections/Seccion7';
+import Section8 from '../sections/Seccion8';
 import AcercaDe from '../sections/AcercaDe';
 import Footer from '../sections/Footer';
 
