@@ -31,7 +31,7 @@ export default function Section3() {
       </div>
       <div
         id="tarjeta2"
-        className="w-[90%] h-65 mx-auto mt-2 mb-5 p-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-start flex items-baseline justify-center"
+        className="w-[90%] h-70 mx-auto mt-2 mb-5 p-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-start flex items-baseline justify-center"
       >
         <motion.div
         initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda

@@ -10,6 +10,7 @@ import Section7 from '../sections/Seccion7';
 import Section8 from '../sections/Seccion8';
 import AcercaDe from '../sections/AcercaDe';
 import Footer from '../sections/Footer';
+import Section9 from '../sections/Seccion9';
 
 export default function Page() {
   return (
@@ -28,6 +29,7 @@ export default function Page() {
         <Section5 />
         <Section6 />
         <Section7 />
+        <Section9 />
         <Section8 />
         <Footer />
         

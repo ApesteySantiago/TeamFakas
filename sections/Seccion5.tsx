@@ -13,18 +13,6 @@ export default function Section5() {
         <h2 id="subtitulo5" className="flex justify-center pt-2 ">ELEGÍ TU MEJOR OPCIÓN</h2>
 
         <div id="descripcion" className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
-          <h3 className="titulo-cards">⭐ FREE</h3>
-          <p className="text-start ml-2">
-
-            Incluye un mini manual de 5 hojas con:<br></br>
-            ✔ Rutina de entrenamiento<br></br>
-            ✔ Guía nutricional básica<br></br>
-            ✔ Conceptos de mentalidad del atleta: disciplina, constancia y enfoque.<br></br>
-            ✔ Consejos para organizar tu semana y progresar sin estancarte.<br></br>
-            ✔ Acceso a un grupo de difusión para recibir contenido semanal.<br></br></p>
-        </div>
-
-        <div id="descripcion" className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
           <h3 className="titulo-cards">💪 BÁSICO</h3>
           <p className="text-start ml-2">
 
