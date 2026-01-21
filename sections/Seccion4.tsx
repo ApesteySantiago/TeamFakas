@@ -35,7 +35,7 @@ export default function Section4() {
         </div>
 
         <div id="descripcion" className="p-2 mb-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
-          <h3 className="titulo-cards">📌 MENTALIDAD Y PSICOLOGÍA DEL ATLETA</h3>
+          <h3 className="titulo-cards">📌 MINDSET & TRANSFORMACIÓN</h3>
           <p className="text-start">
             • Manejo de emociones y estrés durante el proceso.<br></br>
             • Construcción de mentalidad disciplinada y orientada a objetivos.<br></br>
