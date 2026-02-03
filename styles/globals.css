@@ -249,16 +249,20 @@ body {
     cursor: pointer;
     margin-top: 1rem;
 }
+
 #comenzar1{
     font-family: 'Codec Pro', sans-serif;
     font-size: 1rem /* 16px */;
-    background-color: #ff5f03;
-    color: #000000;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #02a3ff, #ffffff);
+    color: #ffffff;
 }
+
 #comenzar2{
     font-family: 'Codec Pro', sans-serif;
     font-size: 1rem /* 16px */;
-    background-color: #ff5f03;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #02a3ff, #ffffff);
     color: #000000;
 }
 

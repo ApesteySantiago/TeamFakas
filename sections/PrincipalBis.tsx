@@ -16,10 +16,10 @@ export default function PrincipalBis() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{
-            duration: 4,
+            duration: 3.5,
             ease: "easeOut",
           }}
-          className="w-[100vw] h-[65dvh] mx-auto overflow-hidden rounded-lg">
+          className="w-[100vw] h-[65dvh] mx-auto overflow-hidden rounded-lg z-0 ">
           <img className="object-contain w-full h-full" src={fakas.src} alt="Facundos" />
         </motion.div>
         <motion.div
@@ -32,7 +32,7 @@ export default function PrincipalBis() {
           }}
           className="w-[90vw] mx-auto">
 
-          <h1 id="titulo" className="flex justify-center text-7xl">
+          <h1 id="titulo" className="flex justify-center text-7xl [-webkit-text-stroke:1px_white]">
             TEAM FAKAS
           </h1>
         </motion.div>
@@ -64,25 +64,13 @@ export default function PrincipalBis() {
         >
           <button
             id="comenzar1"
-            className="w-full h-15 mt-4 py-3 opacity-65"
+            className="w-full h-15 mt-4 py-3 opacity-60"
           >
             CONÓCENOS
           </button>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{
-            duration: 3,
-            ease: "easeOut",
-          }}
-          className="w-[95vw] mx-auto"
-        >
           <button
             id="comenzar2"
-            className="w-full h-15 mt-4 py-3 opacity-65"
+            className="w-full h-15 mt-2 py-3 opacity-60"
           >
             CONTACTÁNOS
           </button>
