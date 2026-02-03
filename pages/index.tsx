@@ -11,6 +11,7 @@ import Section8 from '../sections/Seccion8';
 import AcercaDe from '../sections/AcercaDe';
 import Footer from '../sections/Footer';
 import Section9 from '../sections/Seccion9';
+import PrincipalBis from '../sections/PrincipalBis';
 
 export default function Page() {
   return (
@@ -18,10 +19,10 @@ export default function Page() {
       <Head>
         <title>Team Fakas</title>
         <meta name="description" content="Bienvenido a Team Fakas" />
-        <meta name='stylesheet' content='styles/globals.css'/>
       </Head>
-      <body>
-        
+
+      <main className="h-[100dvh] overflow-y-scroll snap-y snap-proximity scroll-smooth overscroll-y-none">
+        <PrincipalBis />
         <Principal />
         <Section2 />
         <Section3 />
@@ -32,8 +33,7 @@ export default function Page() {
         <Section9 />
         <Section8 />
         <Footer />
-        
-      </body>
+      </main>
     </>
   );
 }

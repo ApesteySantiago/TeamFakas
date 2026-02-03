@@ -3,7 +3,7 @@ import { motion, useScroll } from "motion/react";
 export default function Principal() {
 
   return (
-    <section id="principal" className="">
+    <section id="principal" className="h-screen snap-start">
       <motion.div
         initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
         animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro

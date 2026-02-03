@@ -2,7 +2,7 @@ import { motion, useScroll } from "motion/react";
 
 export default function Section3() {
   return (
-    <section id="section3" className="flex flex-col items-center justify-center">
+    <section id="section3" className="flex flex-col h-screen snap-start items-center justify-center">
 
       <div id="tarjeta1" className="w-[90%] h-65 mx-auto mt-0 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-end flex flex-col items-end p-4" 
       >

@@ -4,18 +4,22 @@
 @import "tailwindcss";
 
 body {
-   margin: 0;
-   padding: 0;
    box-sizing: border-box;
-   
-   overflow-x: hidden; /* Evita el scroll horizontal */
 }
 
 #principal {
+  min-height: 100vh;
+  background-image: url('/espalda.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130% 100%;
+}
+
+#principalBis {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url('/espalda.png');
+  background-image: url('../public/Fondo_Gym.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 130% 100%;
@@ -104,8 +108,6 @@ body {
    letter-spacing: 0px;
    word-spacing: 0px;
    color: #ff0000;
-   font-size: 62px /* 3.75rem = 60px */;
-
 }
 
 #subtitulo{
@@ -247,12 +249,24 @@ body {
     cursor: pointer;
     margin-top: 1rem;
 }
+#comenzar1{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 1rem /* 16px */;
+    background-color: #ff5f03;
+    color: #000000;
+}
+#comenzar2{
+    font-family: 'Codec Pro', sans-serif;
+    font-size: 1rem /* 16px */;
+    background-color: #ff5f03;
+    color: #000000;
+}
 
 
 #lista{
    font-family: 'Codec Pro', sans-serif;
    font-size: 0.65rem /* 8px */;
-   margin-left: 0.7rem /* 16px */;
+   margin-left: 0rem /* 16px */;
    color: #ffffff;
 }
 

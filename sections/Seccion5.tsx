@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Section5() {
   return (
-    <section id="section5" className="flex flex-col items-center justify-center">
+    <section id="section5" className="flex flex-col h-screen snap-start items-center justify-center">
       <motion.div
         initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
         animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro

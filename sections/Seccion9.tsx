@@ -1,6 +1,6 @@
 export default function Section9() {
     return (
-        <section id="section8" className="flex flex-col items-center justify-center">
+        <section id="section8" className="flex flex-col h-screen snap-start items-center justify-center">
             <div
                 className="-translate-y-0 flex flex-col rounded-lg items-center justify-between"
             >
