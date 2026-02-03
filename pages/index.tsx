@@ -23,7 +23,6 @@ export default function Page() {
 
       <main className="h-[100dvh] overflow-y-scroll snap-y snap-proximity scroll-smooth overscroll-y-none">
         <PrincipalBis />
-        <Principal />
         <Section2 />
         <Section3 />
         <Section4 />
