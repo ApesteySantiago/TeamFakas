@@ -14,7 +14,7 @@ export default function PrincipalBis() {
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.6 }}
           transition={{
             duration: 3.5,
             ease: "easeOut",
@@ -25,7 +25,7 @@ export default function PrincipalBis() {
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.6  }}
           transition={{
             duration: 3,
             ease: "easeOut",
@@ -41,7 +41,7 @@ export default function PrincipalBis() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.6  }}
           transition={{
             duration: 3,
             ease: "easeOut",
@@ -55,7 +55,7 @@ export default function PrincipalBis() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.6 }}
           transition={{
             duration: 3,
             ease: "easeOut",
