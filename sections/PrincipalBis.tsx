@@ -8,7 +8,7 @@ export default function PrincipalBis() {
       className="px-4 py-5 bg-gray-100 min-h-screen h-[100dvh] snap-start flex items-center justify-center"
     >
       {/* CONTENEDOR PRINCIPAL */}
-      <div className="grid gap-0 max-w-md mx-auto text-center">
+      <div className="grid gap-1 max-w-md mx-auto text-center">
 
         {/* IMAGEN */}
         <motion.div
@@ -64,13 +64,13 @@ export default function PrincipalBis() {
         >
           <button
             id="comenzar1"
-            className="w-full h-15 mt-4 py-3 opacity-60"
+            className="w-full h-15 mt-4 py-2 opacity-60 border border-black rounded-sm"
           >
             CONÓCENOS
           </button>
           <button
             id="comenzar2"
-            className="w-full h-15 mt-2 py-3 opacity-60"
+            className="w-full h-15 mt-2 py-3 opacity-60 border border-black rounded-sm"
           >
             CONTACTÁNOS
           </button>
