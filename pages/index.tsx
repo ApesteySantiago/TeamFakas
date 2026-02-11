@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Principal from '../sections/Principal';
 import NavBar from '../sections/navBar';
 import Section2 from '../sections/Seccion2';
+import Section3 from '../sections/Seccion3';
 import Section4 from '../sections/Seccion4';
 import Section5 from '../sections/Seccion5';
 import Section6 from '../sections/Seccion6';
@@ -23,9 +24,9 @@ export default function Page() {
       <main className="h-[100dvh] overflow-y-scroll snap-y snap-proximity scroll-smooth overscroll-y-none">
         <PrincipalBis />
         <Section2 />
-        <Section4 />
-        <Section5 />
+        <Section3 />
         <Section6 />
+        <Section5 />
         <Section7 />
         <Section9 />
         <Section8 />
