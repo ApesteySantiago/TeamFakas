@@ -22,7 +22,7 @@ export default function Section3() {
     >
       {/* Bloque superior */}
       <div className="flex flex-col items-center pt-10 gap-2">
-        <h1 id="titulo4" className="text-2xl">
+        <h1 id="titulo4" className="text-2xl [-webkit-text-stroke:1px_white]">
           QUE TE OFRECEMOS
         </h1>
 
@@ -51,9 +51,14 @@ export default function Section3() {
         >
           {/* ENTRENAMIENTO */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center h-[420px] flex flex-col justify-start">
-              <h3 className="titulo-cards">📌 ENTRENAMIENTO</h3>
-              <p className="text-start mt-3 text-sm">
+            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col"
+              style={{
+                backgroundImage: "url('/Perfil_derecho.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}>
+              <h3 className="titulo-cards text-2xl [-webkit-text-stroke:1px_white]">ENTRENAMIENTO</h3>
+              <p className="text-start mt-50 text-m">
                 • Planes adaptados a tu nivel y objetivo<br />
                 • Programas de alta intensidad<br />
                 • Corrección técnica y biomecánica aplicada<br />
@@ -65,9 +70,14 @@ export default function Section3() {
 
           {/* NUTRICIÓN */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center h-[420px] flex flex-col justify-start">
-              <h3 className="titulo-cards">📌 NUTRICIÓN</h3>
-              <p className="text-start mt-3 text-sm">
+            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col"
+              style={{
+                backgroundImage: "url('/acercade2.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}>
+              <h3 className="titulo-cards [-webkit-text-stroke:1px_white]">NUTRICIÓN</h3>
+              <p className="text-start ml-0 mt-2 text-m">
                 • Guía alimentaria personalizada<br />
                 • Guía de macronutrientes y micronutrientes<br />
                 • Estrategias para recomposición corporal<br />
@@ -79,9 +89,14 @@ export default function Section3() {
 
           {/* MINDSET */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center h-[420px] flex flex-col justify-start">
-              <h3 className="titulo-cards">
-                📌 MINDSET & TRANSFORMACIÓN
+            <div className="p-4 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center h-[600px] flex flex-col justify-start"
+              style={{
+                backgroundImage: "url('/consuler2.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}>
+              <h3 className="titulo-cards [-webkit-text-stroke:1px_white]">
+                MINDSET & TRANSFORMACIÓN
               </h3>
               <p className="text-start mt-3 text-sm">
                 • Manejo de emociones y estrés<br />
@@ -94,6 +109,6 @@ export default function Section3() {
           </SwiperSlide>
         </Swiper>
       </div>
-    </motion.div>
+    </motion.div >
   );
 }
