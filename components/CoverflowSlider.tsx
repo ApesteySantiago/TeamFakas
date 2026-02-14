@@ -22,7 +22,7 @@ export default function Section3() {
     >
       {/* Bloque superior */}
       <div className="flex flex-col items-center pt-10 gap-2">
-        <h1 id="titulo4" className="text-2xl [-webkit-text-stroke:1px_white]">
+        <h1 id="titulo4" className="text-center text-2xl [-webkit-text-stroke:1px_white]">
           QUE TE OFRECEMOS
         </h1>
 

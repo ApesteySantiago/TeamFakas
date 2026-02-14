@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <link rel="icon" type='image/png' href="/icon.png" />
+        <link rel="icon" type='image/png' href="/logoTeamFakas.png" />
         <title>TeamFakas</title>
         <meta name="description" content="Bienvenido a TeamFakas" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

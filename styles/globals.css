@@ -177,6 +177,7 @@ body {
    word-spacing: 0px;
    color: #ff0000;
    font-size: 3rem /* 3.75rem = 60px */;
+   
 
 }
 
@@ -218,8 +219,15 @@ body {
 .titulo-cards{
    font-family: Impact, sans-serif;
    letter-spacing: 0px;
-   color: #ff5f03;
+   color: #ff0000;
    font-size: 3rem; /* 32px */;
+}
+
+.subtitulo-cards{
+   font-family: 'Codec Pro', sans-serif;
+   letter-spacing: 0px;
+   color: #ffffff;
+   font-size: 1rem /* 24px */;
 }
 
 #entrenadores {
