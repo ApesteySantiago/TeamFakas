@@ -1,4 +1,4 @@
-import fakas from "../public/BienvenidaPrincipal.png";
+import Image from "next/image";
 import { motion } from "motion/react";
 
 export default function PrincipalBis() {
@@ -16,16 +16,22 @@ export default function PrincipalBis() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.6 }}
           transition={{
-            duration: 3.5,
+            duration: 1.8,
             ease: "easeOut",
           }}
-          className="w-[100vw] h-[65dvh] mx-auto overflow-hidden rounded-lg z-0 ">
-          <img className="object-contain w-full h-full" src={fakas.src} alt="Facundos" />
+          className="relative w-[100vw] h-[65dvh] mx-auto overflow-hidden rounded-lg z-0">
+          <Image
+            src="/BienvenidaPrincipal.png"
+            alt="Facundos"
+            fill
+            priority
+            className="object-contain w-full h-full"
+          />
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.6  }}
+          viewport={{ once: false, amount: 0.6 }}
           transition={{
             duration: 3,
             ease: "easeOut",
@@ -41,7 +47,7 @@ export default function PrincipalBis() {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.6  }}
+          viewport={{ once: false, amount: 0.6 }}
           transition={{
             duration: 3,
             ease: "easeOut",

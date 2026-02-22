@@ -19,14 +19,14 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url('../public/Fondo_Gym.png');
+  background-image: url('../public/Fondo_Gym.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 130% 100%;
 }
 
 #section2 {
-  background-image: url('../public/Fondo_Gym.png');
+  background-image: url('../public/Fondo_Gym.jpg');
   margin: 0;
   padding: 0;
   background-size: 100% 100%;
@@ -37,7 +37,7 @@ body {
 }
 
 #section3 {
-  background-image: url('../public/Fondo_Gym.png');
+  background-image: url('../public/Fondo_Gym.jpg');
   margin: 0;
   padding: 0;
   background-size: 100% 100%;

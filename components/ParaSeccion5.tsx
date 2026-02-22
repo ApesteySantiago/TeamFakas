@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
@@ -15,15 +16,15 @@ function PlanCard({ title, image, features, price }: {
   price: string;
 }) {
   return (
+    <div className="relative p-5 border border-white/20 rounded-xl shadow-lg h-[620px] flex flex-col overflow-hidden">
+      <Image
+        src={image}
+        alt={title}
+        fill
+        className="object-cover -z-10"
+        sizes="(max-width: 768px) 90vw, 280px"
+      />
 
-    <div
-      className="p-5 border border-white/20 rounded-xl shadow-lg h-[620px] flex flex-col"
-      style={{
-        backgroundImage: `url(${image})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
       <h3 className="titulo-cards mb-5 text-center [-webkit-text-stroke:1px_white]">
         {title}
       </h3>
@@ -36,7 +37,6 @@ function PlanCard({ title, image, features, price }: {
         </ul>
       </div>
 
-      {/* Zona inferior fija */}
       <div className="mb-5 mt-5 text-center">
         <button className="bg-white/20 text-white font-bold py-2 px-4 rounded-lg transition duration-300">
           Elegir Plan
@@ -92,7 +92,7 @@ export default function Section5() {
               <SwiperSlide className="w-[280px]">
                 <PlanCard
                   title="BRONZE"
-                  image="/bronce.png"
+                  image="/bronce.jpg"
                   price="$20.000 / mes"
                   features={[
                     "Guía de entrenamiento personalizado",
@@ -107,7 +107,7 @@ export default function Section5() {
               <SwiperSlide className="w-[280px]">
                 <PlanCard
                   title="SILVER"
-                  image="/plata.png"
+                  image="/plata.jpg"
                   price="$35.000 / mes"
                   features={[
                     "Incluye todo del Básico",
@@ -123,7 +123,7 @@ export default function Section5() {
               <SwiperSlide className="w-[280px]">
                 <PlanCard
                   title="GOLD"
-                  image="/oro.png"
+                  image="/oro.jpg"
                   price="$50.000 / mes"
                   features={[
                     "Incluye todo del Standard",
