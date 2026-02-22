@@ -1,81 +1,120 @@
-import { motion, useScroll } from "motion/react";
+"use client";
+
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Section2() {
   return (
-    <section id="section2" className="px-4 py-5 bg-gray-100 min-h-screen h-[100dvh] snap-start flex items-center justify-center">
-      <motion.div
-        initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
-        whileInView={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
-        viewport={{ once: false,
-          amount: 0.6
-         }}
-        transition={{ duration: 1.5, ease: "easeOut" }} // tiempo y suavizado
-        
-        className="flex flex-col rounded-lg items-center justify-center"
-      >
-        <h1 id="titulo2" className="flex justify-center ml-0 [-webkit-text-stroke:1px_white]">ENTRENADORES</h1>
-        <h2 id="subtitulo2" className="flex justify-center ml-0">QUIENES ESTAN DETRAS DE TEAMFAKAS</h2>
+    <section
+      id="section2"
+      className="px-0 py-6 bg-gray-100 min-h-screen snap-start flex items-center"
+    >
+      <div className="max-w-6xl mx-auto w-full">
 
-        <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90vw] mx-auto">
-          <p>Somos un equipo profesional dedicado a brindarte herramientas y asesoría para alcanzar tus metas.</p>
+        {/* TITULOS */}
+        <div className="text-center mb-2">
+          <h1
+            id="titulo2"
+            className="[-webkit-text-stroke:1px_white]"
+          >
+            ENTRENADORES
+          </h1>
+
+          <h2 id="subtitulo2">
+            QUIENES ESTAN DETRAS DE TEAMFAKAS
+          </h2>
+
+          <div
+            id="descripcion"
+            className="flex justify-center"
+          >
+            <div
+              className="w-[90%] md:w-[70%] p-3 
+               bg-white/10 md:backdrop-blur-sm 
+               border border-white/20 
+               rounded-xl shadow-md text-center"
+            >
+              <p className="text-sm md:text-base leading-relaxed">
+                Somos un equipo profesional dedicado a brindarte herramientas y
+                asesoría para alcanzar tus metas.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div id="tarjeta1" className="w-[90vw] h-65 mx-auto mt-5 mb-5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-end flex flex-col items-end p-4"
-        >
+        {/* GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+
+          {/* TARJETA 1 */}
           <motion.div
-            initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
-            whileInView={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
+            initial={{ opacity: 0, x: -80 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 5, ease: "easeOut" }} // tiempo y suavizado
-            className="text-shadow-2xl"
+            transition={{ duration: 0.8 }}
+            className="relative w-[90%] md:w-[85%] mx-auto h-70 rounded-xl overflow-hidden shadow-md flex items-end justify-end p-4 text-white"
           >
-            <p className="text-lg mt-3 mr-3">FACUNDO ARIEL CEJAS</p>
+            <Image
+              src="/faka1.jpg"
+              alt="Facundo Ariel Cejas"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 90vw, 40vw"
+            />
 
-            <p className="text- mb-18">Entrenador Personal & Instructor en musculación</p>
+            <div className="absolute inset-0 bg-black/0" />
 
-            <p className="">Certificación Internacional Mr. Olympia - Bodybuilding & Fitness Trainer.</p>
+            <div className="relative z-10 text-end">
+              <p id="nombres" className="text-2xl [-webkit-text-stroke:0.3px_white]">
+                FACUNDO ARIEL CEJAS
+              </p>
 
-            <p className="">Certificación Internacional High Fitness Trainer.</p>
+              <p id="pieDeNombre" className="text-xs mb-3">
+                Entrenador Personal & Instructor en musculación
+              </p>
 
-            <p className="">Estudiante de Licenciatura en Nutrición (UNTREF).</p>
-
-            <p className="">Especialista en entrenamiento de alta intensidad.</p>
-
-            <p className="">🔥 Filosofía: “El cuerpo cambia cuando tu mente deja de negociar con la comodidad.”</p>
+              <p className="text-xs">Certificación Internacional Mr. Olympia - Bodybuilding & Fitness Trainer. <br />
+              Certificación Internacional High Fitness Trainer.<br />
+              Estudiante de Licenciatura en Nutrición (UNTREF).<br />
+              Especialista en entrenamiento de alta intensidad.</p>
+            </div>
           </motion.div>
 
-
-        </div>
-        <div
-          id="tarjeta2"
-          className="w-[90%] h-70 mx-auto mt-2 mb-5 p-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-start flex items-baseline justify-center"
-        >
+          {/* TARJETA 2 */}
           <motion.div
-            initial={{ opacity: 0, x: -100 }}   // 100% opacidad, fuera de la izquierda
-            animate={{ opacity: 1, x: 0 }}      // 0% opacidad, llega al centro
-            transition={{ duration: 5, ease: "easeOut" }} // tiempo y suavizado
-            className="ml-3"
+            initial={{ opacity: 0, x: 80 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="relative w-[90%] md:w-[85%] mx-auto h-70 rounded-xl overflow-hidden shadow-md flex flex-col justify-center p-4 text-white"
           >
-            <p className="text-lg mt-5">FACUNDO PEDRO TRABA</p>
+            <Image
+              src="/faka2.jpg"
+              alt="Facundo Pedro Traba"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 90vw, 40vw"
+            />
 
-            <p className="mb-22">Entrenador & Counselor Psicológico Deportivo</p>
+            <div className="absolute inset-0 bg-black/0" />
 
-            <p className="">Certificación Internacional Mr. Olympia - Fitness Trainer.</p>
+            <div className="relative z-10 ">
+              <p id="nombres" className="text-2xl [-webkit-text-stroke:0.3px_white]">
+                FACUNDO PEDRO TRABA
+              </p>
 
-            <p className="">Formado en Counseling y acompañamiento emocional para deportistas.</p>
+              <p id="pieDeNombre" className="text-xs mb-3">
+                Entrenador & Counselor Psicológico Deportivo
+              </p>
 
-            <p className="">Especialista en mentalidad, adherencia al plan y hábitos sostenibles.</p>
-
-            <p className="">Trabajo con procesos de superación personal, ansiedad de rendimiento y resiliencia deportiva.</p>
-
-            <p className="">🔥 Filosofía: “La fuerza física sin fuerza mental no se sostiene en el tiempo.”</p>
+              <p className="text-xs">Certificación Internacional Mr. Olympia - Fitness Trainer. <br />
+              Formado en Counseling y acompañamiento emocional para deportistas. <br />
+              Especialista en mentalidad, adherencia al plan y hábitos sostenibles. <br />
+              Trabajo con procesos de superación personal, ansiedad de rendimiento y resiliencia deportiva.</p>
+            </div>
           </motion.div>
+
         </div>
-
-
-
-
-      </motion.div>
+      </div>
     </section>
-  )
+  );
 }

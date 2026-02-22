@@ -33,7 +33,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
 
+#nombres {
+  font-family: Impact, sans-serif;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  color: #ff0000;
+}
+
+#pieDeNombre {
+  font-family: 'Codec Pro', sans-serif;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  color: #ffffff;
 }
 
 #section3 {
@@ -210,9 +223,6 @@ body {
    font-family: 'Codec Pro', sans-serif;
    font-size: 1rem /* 16px */;
    color: #ffffff;
-   margin-top: 1rem;
-   margin-left: 0rem;
-   margin-right: 0rem;
    padding: 0.5rem;
 }
 
@@ -241,7 +251,7 @@ body {
 }
 
 #tarjeta1{
-  background-image: url('../public/Faka1.png');
+  background-image: url('../public/faka1.jpg');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -251,7 +261,7 @@ body {
 }
 
 #tarjeta2{
-  background-image: url('../public/faka2.png');
+  background-image: url('../public/faka2.jpg');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
