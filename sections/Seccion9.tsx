@@ -9,10 +9,10 @@ export default function Section9() {
 
                 <div id="descripcion" className="translate-y-0 flex bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
                     <p className="text-start p-4">
-                        Las guías te dan la dirección, pero el seguimiento real te garantiza la meta. No dejes tu progreso al azar de un papel estático: transformá el conocimiento en resultados con nuestro apoyo profesional.<br /><br />
+                        <br /><br />
                         ¿QUERÉS CONOCER NUESTROS VALORES? <br /><br />
 
-                        Nuestros planes están diseñados para adaptarse a diferentes niveles de compromiso y presupuestos. <br /> <br /> Consultanos ahora para recibir la lista de precios actualizada y encontrar la opción ideal para vos.
+                        Nuestros planes están diseñados para adaptarse a diferentes niveles de compromiso y presupuestos. <br /> <br /> 
                     </p>
                 </div>
                 <button className="mt-4 bg-white text-black font-bold py-2 px-4 rounded hover:bg-gray-200 transition duration-300">
