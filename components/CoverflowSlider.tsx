@@ -58,7 +58,7 @@ export default function Section3() {
                 backgroundPosition: "center",
               }}>
               <h3 className="titulo-cards text-2xl [-webkit-text-stroke:1px_white]">ENTRENAMIENTO</h3>
-              <p id="descripcion2" className="text-start text-m mb-10 ml-5">
+              <p className="text-start text-m mb-10 ml-5">
                 • Planes adaptados a tu nivel y objetivo<br />
                 • Programas de alta intensidad<br />
                 • Corrección técnica y biomecánica aplicada<br />
