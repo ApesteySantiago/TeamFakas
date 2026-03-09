@@ -110,12 +110,12 @@ export default function Section5() {
                   image="/plata.jpg"
                   price="$35.000 / mes"
                   features={[
-                    "Incluye todo del Básico",
-                    "Nutrición personalizada",
+                    "Incluye todo del plan Bronze",
+                    "Guía de nutrición personalizada",
                     "Corrección técnica semanal",
                     "Ajustes quincenales",
                     "Soporte 24/48h",
-                    "2 consultorías de 50 min",
+                    "1 entrevista de 50 min",
                   ]}
                 />
               </SwiperSlide>
@@ -126,7 +126,7 @@ export default function Section5() {
                   image="/oro.jpg"
                   price="$50.000 / mes"
                   features={[
-                    "Incluye todo del Standard",
+                    "Incluye todo del plan Silver",
                     "Seguimiento semanal 1 a 1",
                     "Correcciones ilimitadas",
                     "Videollamada mensual",

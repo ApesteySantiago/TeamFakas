@@ -51,14 +51,14 @@ export default function Section3() {
         >
           {/* ENTRENAMIENTO */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col"
+            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col justify-between"
               style={{
                 backgroundImage: "url('/Perfil_derecho.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}>
               <h3 className="titulo-cards text-2xl [-webkit-text-stroke:1px_white]">ENTRENAMIENTO</h3>
-              <p className="text-start mt-50 text-m">
+              <p id="descripcion2" className="text-start text-m mb-10 ml-5">
                 • Planes adaptados a tu nivel y objetivo<br />
                 • Programas de alta intensidad<br />
                 • Corrección técnica y biomecánica aplicada<br />
@@ -70,14 +70,14 @@ export default function Section3() {
 
           {/* NUTRICIÓN */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col"
+            <div className="p-6 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col justify-between"
               style={{
                 backgroundImage: "url('/acercade2.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}>
               <h3 className="titulo-cards [-webkit-text-stroke:1px_white]">NUTRICIÓN</h3>
-              <p className="text-start ml-0 mt-2 text-m">
+              <p id="descripcion2" className="text-start text-m mb-10 ml-5">
                 • Guía alimentaria personalizada<br />
                 • Guía de macronutrientes y micronutrientes<br />
                 • Estrategias para recomposición corporal<br />
@@ -89,16 +89,16 @@ export default function Section3() {
 
           {/* MINDSET */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center h-[600px] flex flex-col justify-start"
+            <div className="p-6 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col justify-between"
               style={{
                 backgroundImage: "url('/consuler2.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}>
               <h3 className="titulo-cards [-webkit-text-stroke:1px_white]">
-                MINDSET & TRANSFORMACIÓN
+                COACHING 1 A 1
               </h3>
-              <p className="text-start mt-3 text-sm">
+              <p id="descripcion2" className="text-start text-m mb-10 ml-5">
                 • Manejo de emociones y estrés<br />
                 • Mentalidad disciplinada y orientada a objetivos<br />
                 • Hábitos sostenibles a largo plazo<br />

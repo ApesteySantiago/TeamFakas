@@ -4,7 +4,7 @@ export default function Section6() {
             <div
                 className="flex flex-col rounded-lg items-center justify-center"
             >
-                <h1 id="titulo6" className="-translate-y-40 flex justify-center text-center font-2xl">LA IA NO TRANSPIRA</h1>
+                <h1 id="titulo6" className="-translate-y-40 flex justify-center text-center font-2xl [-webkit-text-stroke:1px_white]">LA IA NO TRANSPIRA</h1>
                 <h2 id="subtitulo6" className="-translate-y-40 flex justify-center pt-2 ">TU PROGRESO NO ES UN ALGORITMO</h2>
 
                 <div id="descripcion" className="translate-y-20 flex bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
