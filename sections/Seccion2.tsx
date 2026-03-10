@@ -69,7 +69,7 @@ export default function Section2() {
                 FACUNDO ARIEL CEJAS
               </h3>
 
-              <span id="pieDeNombre" className="text-xs opacity-90 mb-15 max-w-[80%]">
+              <span id="pieDeNombre" className="text-xs opacity-90 mb-15 max-w-[75%]">
                 Entrenador Personal & Instructor en musculación
               </span>
 
