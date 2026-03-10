@@ -7,7 +7,7 @@ export default function Section2() {
   return (
     <section
       id="section2"
-      className="px-0 py-6 bg-gray-100 min-h-screen snap-start flex items-center"
+      className="px-0 py-6 bg-gray-100 min-h-[80vh] snap-start flex items-center"
     >
       <div className="max-w-6xl mx-auto w-full">
 
