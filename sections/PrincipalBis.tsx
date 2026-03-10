@@ -5,7 +5,7 @@ export default function PrincipalBis() {
   return (
     <section
       id="principalBis"
-      className="px-4 py-5 bg-gray-100 h-[80vh] snap-start flex items-center justify-center"
+      className="px-4 py-5 bg-gray-100 max-h-[75vh] snap-start flex items-center justify-center"
     >
       {/* CONTENEDOR PRINCIPAL */}
       <div className="grid gap-1 max-w-md mx-auto text-center">
