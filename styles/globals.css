@@ -334,7 +334,7 @@ body {
     /* 16px */
   ;
   font-weight: bold;
-  background: linear-gradient(to bottom right, #02a3ff, #ffffff);
+  background: linear-gradient(to bottom, #02a3ff, #000000 , #02a3ff);
   color: #ffffff;
 }
 
@@ -344,8 +344,8 @@ body {
     /* 16px */
   ;
   font-weight: bold;
-  background: linear-gradient(to bottom right, #02a3ff, #ffffff);
-  color: #000000;
+  background: linear-gradient(to bottom, #02a3ff, #000000, #02a3ff);
+  color: #ffffff;
 }
 
 
