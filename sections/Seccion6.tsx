@@ -1,6 +1,6 @@
 export default function Section6() {
     return (
-        <section className="min-h-screen bg-[url('/mujer_vs_ia.png')] bg-center bg-[length:120%_100%] flex flex-col h-screen snap-start items-center justify-center">
+        <section className="h-dvh bg-[url('/mujer_vs_ia.png')] bg-center bg-[length:120%_100%] flex flex-col snap-start items-center justify-center">
             <div
                 className="flex flex-col rounded-lg items-center justify-center"
             >

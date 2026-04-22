@@ -15,10 +15,10 @@ export default function Section3() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false, amount: 0.6 }}
       transition={{
-        duration: 3,
+        duration: 0.8,
         ease: "easeOut",
       }}
-      className="grid h-full w-full grid-rows-[auto_1fr] overflow-visible"
+      className="grid h-full w-full grid-rows-[auto_1fr] overflow-hidden"
     >
       {/* Bloque superior */}
       <div className="flex flex-col items-center pt-10 gap-2">
@@ -32,7 +32,7 @@ export default function Section3() {
       </div>
 
       {/* Zona del slider centrada */}
-      <div className="flex items-center justify-center overflow-visible">
+      <div className="flex items-center justify-center overflow-hidden">
         <Swiper
           effect="coverflow"
           grabCursor={true}
@@ -47,7 +47,7 @@ export default function Section3() {
           }}
           pagination={{ clickable: true }}
           modules={[EffectCoverflow, Pagination]}
-          className="w-[90vw] max-w-4xl py-10 overflow-visible"
+          className="w-full max-w-4xl py-10 overflow-hidden"
         >
           {/* ENTRENAMIENTO */}
           <SwiperSlide className="w-[240px]">

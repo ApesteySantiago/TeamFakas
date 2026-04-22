@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Section2() {
   return (
     <section
-      className="min-h-screen bg-[url('/Fondo_Gym.jpg')] bg-center bg-[length:100%_100%] px-0 py-6 bg-gray-100 snap-start flex items-center"
+      className="h-dvh bg-[url('/Fondo_Gym.jpg')] bg-center bg-[length:100%_100%] px-0 py-6 snap-start flex items-center overflow-hidden"
     >
       <div className="max-w-6xl mx-auto w-full">
 
@@ -44,8 +44,8 @@ export default function Section2() {
 
           {/* TARJETA 1 */}
           <motion.div
-            initial={{ opacity: 0, x: -80 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             className="relative w-[90%] md:w-[85%] mx-auto h-[280px] rounded-xl overflow-hidden shadow-md flex items-end justify-end p-4 text-white border border-black"
@@ -66,7 +66,7 @@ export default function Section2() {
                 FACUNDO ARIEL CEJAS
               </h3>
 
-              <span className="font-[Codec Pro] text-white text-xs opacity-90 mb-10 max-w-[75%]">
+              <span className="font-['Codec_Pro'] text-white text-xs opacity-90 mb-10 max-w-[75%]">
                 Entrenador Personal & Instructor en musculación
               </span>
 
@@ -82,8 +82,8 @@ export default function Section2() {
 
           {/* TARJETA 2 */}
           <motion.div
-            initial={{ opacity: 0, x: 80 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             className="relative w-[90%] md:w-[85%] mx-auto h-[280px] rounded-xl overflow-hidden shadow-md flex flex-col justify-center p-4 pb-0 text-white"
@@ -104,7 +104,7 @@ export default function Section2() {
                 FACUNDO PEDRO TRABA
               </h3>
 
-              <span  className="font-[Codec Pro] text-white text-xs opacity-90 mb-10 max-w-[70%]">
+              <span  className="font-['Codec_Pro'] text-white text-xs opacity-90 mb-10 max-w-[70%]">
                 Entrenador & Counselor Psicológico Deportivo
               </span>
 
