@@ -6,9 +6,7 @@ import Section5 from '../sections/Seccion5';
 import Section6 from '../sections/Seccion6';
 import Section7 from '../sections/Seccion7';
 import Section8 from '../sections/Seccion8';
-
 import Footer from '../sections/Footer';
-
 import PrincipalBis from '../sections/PrincipalBis';
 
 export default function Page() {
@@ -19,7 +17,7 @@ export default function Page() {
         <meta name="description" content="Bienvenido a Team Fakas" />
       </Head>
 
-      <main className="w-dvw h-dvh snap-y snap-proximity scroll-smooth overflow-y-scroll overscroll-y-none">
+      <main className="w-dvw h-dvh snap-y snap-proximity scroll-smooth">
         <PrincipalBis />
         <Section2 />
         <Section3 />

@@ -18,7 +18,7 @@ export default function PrincipalBis() {
             duration: 1.8,
             ease: "easeOut",
           }}
-          className="relative w-screen h-[60dvh] mx-auto mt-4 overflow-hidden rounded-lg z-0">
+          className="relative w-screen h-[50dvh] min-[375px]:h-[60dvh] mx-auto mt-4 overflow-hidden rounded-lg z-0">
           <Image
             src="/BienvenidaPrincipal.png"
             alt="Facundos"
@@ -37,7 +37,7 @@ export default function PrincipalBis() {
           }}
           className="w-[90vw] mx-auto">
 
-          <h1 className="flex justify-center text-7xl [-webkit-text-stroke:1px_white] font-[Impact] text-red-600">
+          <h1 className="flex justify-center text-[clamp(2.8rem,17vw,4.5rem)] [-webkit-text-stroke:1px_white] font-[Impact] text-red-600">
             TEAM FAKAS
           </h1>
         </motion.div>
