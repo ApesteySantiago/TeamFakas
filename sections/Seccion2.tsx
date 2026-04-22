@@ -13,12 +13,12 @@ export default function Section2() {
         {/* TITULOS */}
         <div className="text-center mb-2">
           <h1
-            className="[-webkit-text-stroke:1px_white] font-[Impact] text-red-600 text-[62px]"
+            className="[-webkit-text-stroke:1px_white] font-[Impact] text-red-600 text-[clamp(2rem,15vw,4rem)]"
           >
-            ENTRENADOR
+            ENTRENADORES
           </h1>
 
-          <h2 className="font-['Codec_Pro'] text-white tracking-[7px] -mt-4">
+          <h2 className="font-['Codec_Pro'] text-white tracking-[0px] min-[375px]:tracking-[1px] min-[425px]:tracking-[2px] -mt-4">
             QUIENES ESTAN DETRAS DE TEAMFAKAS
           </h2>
 
@@ -104,7 +104,7 @@ export default function Section2() {
                 FACUNDO PEDRO TRABA
               </h3>
 
-              <span  className="font-['Codec_Pro'] text-white text-xs opacity-90 mb-10 max-w-[70%]">
+              <span className="font-['Codec_Pro'] text-white text-xs opacity-90 mb-10 max-w-[70%]">
                 Entrenador & Counselor Psicológico Deportivo
               </span>
 
