@@ -22,11 +22,11 @@ export default function Section3() {
     >
       {/* Bloque superior */}
       <div className="flex flex-col items-center pt-10 gap-2">
-        <h1 id="titulo4" className="text-center text-2xl [-webkit-text-stroke:1px_white]">
+        <h1 className="font-[Impact] text-red-600 text-4xl sm:text-5xl md:text-6xl text-center [-webkit-text-stroke:1px_white]">
           QUE TE OFRECEMOS
         </h1>
 
-        <h2 id="subtitulo4" className="text-center">
+        <h2 className="font-[Codec Pro] text-white tracking-[7px] -mt-4 text-sm sm:text-base md:text-lg text-center">
           QUEREMOS INCULCARTE EL ARTE DEL TREINO
         </h2>
       </div>
@@ -51,14 +51,14 @@ export default function Section3() {
         >
           {/* ENTRENAMIENTO */}
           <SwiperSlide className="w-[240px]">
-            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col justify-between"
+            <div className="p-4 border border-white/20 rounded-xl shadow-lg text-center h-[570px] flex flex-col justify-between "
               style={{
                 backgroundImage: "url('/Perfil_derecho.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}>
-              <h3 className="titulo-cards text-2xl [-webkit-text-stroke:1px_white]">ENTRENAMIENTO</h3>
-              <p className="text-start text-m mb-10 ml-5">
+              <h3 className="font-[Impact] text-red-600 text-4xl sm:text-5xl md:text-6xl titulo-cards [-webkit-text-stroke:1px_white]">ENTRENAMIENTO</h3>
+              <p className="font-[Codec Pro] text-white text-base text-start p-2 mb-10 ml-3">
                 • Planes adaptados a tu nivel y objetivo<br />
                 • Programas de alta intensidad<br />
                 • Corrección técnica y biomecánica aplicada<br />
@@ -77,7 +77,7 @@ export default function Section3() {
                 backgroundPosition: "center",
               }}>
               <h3 className="titulo-cards [-webkit-text-stroke:1px_white]">NUTRICIÓN</h3>
-              <p id="descripcion2" className="text-start text-m mb-10 ml-5">
+              <p className="font-[Codec Pro] tracking-[2px] text-white -mt-4 bg-black/50 rounded-xl text-start text-base mb-10 ml-5">
                 • Guía alimentaria personalizada<br />
                 • Guía de macronutrientes y micronutrientes<br />
                 • Estrategias para recomposición corporal<br />
@@ -98,7 +98,7 @@ export default function Section3() {
               <h3 className="titulo-cards [-webkit-text-stroke:1px_white]">
                 COACHING 1 A 1
               </h3>
-              <p id="descripcion2" className="text-start text-m mb-10 ml-5">
+              <p className="font-[Codec Pro] tracking-[2px] text-white -mt-4 text-start text-base mb-10 ml-5">
                 • Manejo de emociones y estrés<br />
                 • Mentalidad disciplinada y orientada a objetivos<br />
                 • Hábitos sostenibles a largo plazo<br />

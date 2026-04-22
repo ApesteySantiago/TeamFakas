@@ -1,11 +1,10 @@
 import Image from "next/image";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 export default function PrincipalBis() {
   return (
     <section
-      id="principalBis"
-      className="px-4 py-5 bg-gray-100 max-h-[75vh] snap-start flex items-center justify-center"
+      className="h-dvh bg-[url('/Fondo_Gym.jpg')] bg-no-repeat bg-center bg-[length:100%_100%] snap-start flex items-center justify-center"
     >
       {/* CONTENEDOR PRINCIPAL */}
       <div className="grid gap-1 max-w-md mx-auto text-center">
@@ -19,7 +18,7 @@ export default function PrincipalBis() {
             duration: 1.8,
             ease: "easeOut",
           }}
-          className="relative w-[100vw] h-[65dvh] mx-auto overflow-hidden rounded-lg z-0">
+          className="relative w-screen h-[60dvh] mx-auto mt-4 overflow-hidden rounded-lg z-0">
           <Image
             src="/BienvenidaPrincipal.png"
             alt="Facundos"
@@ -38,7 +37,7 @@ export default function PrincipalBis() {
           }}
           className="w-[90vw] mx-auto">
 
-          <h1 id="titulo" className="flex justify-center text-7xl [-webkit-text-stroke:1px_white]">
+          <h1 className="flex justify-center text-7xl [-webkit-text-stroke:1px_white] font-[Impact] text-red-600">
             TEAM FAKAS
           </h1>
         </motion.div>
@@ -54,7 +53,7 @@ export default function PrincipalBis() {
           }}
           className="w-[95vw] mx-auto">
 
-          <h3 id="lista" className="flex justify-center border-1 rounded-lg border-red-500 p-0.5">
+          <h3 className="flex justify-center border rounded-lg border-red-500 p-0.5 font-['Codec_Pro'] text-[0.65rem] text-white">
             - Planes Personalizados - Nutrición - Seguimiento - Coaching Psicologico -
           </h3>
         </motion.div>
@@ -69,14 +68,12 @@ export default function PrincipalBis() {
           className="w-[95vw] mx-auto"
         >
           <button
-            id="comenzar1"
-            className="w-full h-15 mt-4 py-2 opacity-60 border border-black rounded-sm"
+            className="w-[90vw] h-15 mt-4 py-2 border border-black rounded-sm bg-gradient-to-b from-[#02a3ff] via-black to-[#02a3ff] text-white font-bold font-['Codec_Pro']"
           >
             CONÓCENOS
           </button>
           <button
-            id="comenzar2"
-            className="w-full h-15 mt-2 py-3 opacity-60 border border-black rounded-sm"
+            className="w-[90vw] h-15 mt-2 mb-4 py-3 border border-black rounded-sm bg-gradient-to-b from-[#02a3ff] via-black to-[#02a3ff] text-white font-bold font-['Codec_Pro']"
           >
             CONTACTÁNOS
           </button>

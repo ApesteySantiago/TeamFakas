@@ -6,27 +6,24 @@ import Image from "next/image";
 export default function Section2() {
   return (
     <section
-      id="section2"
-      className="px-0 py-6 bg-gray-100 max-h-[80vh] snap-start flex items-center"
+      className="min-h-screen bg-[url('/Fondo_Gym.jpg')] bg-center bg-[length:100%_100%] px-0 py-6 bg-gray-100 snap-start flex items-center"
     >
       <div className="max-w-6xl mx-auto w-full">
 
         {/* TITULOS */}
         <div className="text-center mb-2">
           <h1
-            id="titulo2"
-            className="[-webkit-text-stroke:1px_white]"
+            className="[-webkit-text-stroke:1px_white] font-[Impact] text-red-600 text-[62px]"
           >
-            ENTRENADORES
+            ENTRENADOR
           </h1>
 
-          <h2 id="subtitulo2">
+          <h2 className="font-['Codec_Pro'] text-white tracking-[7px] -mt-4">
             QUIENES ESTAN DETRAS DE TEAMFAKAS
           </h2>
 
           <div
-            id="descripcion"
-            className="flex justify-center"
+            className="flex justify-center font-['Codec_Pro'] text-white text-base p-2"
           >
             <div
               className="w-[90%] md:w-[70%] p-3 
@@ -51,7 +48,7 @@ export default function Section2() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative w-[90%] md:w-[85%] mx-auto h-70 rounded-xl overflow-hidden shadow-md flex items-end justify-end p-4 text-white border border-black"
+            className="relative w-[90%] md:w-[85%] mx-auto h-[280px] rounded-xl overflow-hidden shadow-md flex items-end justify-end p-4 text-white border border-black"
           >
             <Image
               src="/faka1.jpg"
@@ -63,13 +60,13 @@ export default function Section2() {
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
 
-            <div className="relative z-10 flex flex-col items-end gap-0 text-end max-w-[100%]">
+            <div className="relative z-10 flex flex-col items-end gap-0 text-end max-w-full">
 
-              <h3 id="nombres" className="text-2xl [-webkit-text-stroke:0.5px_white]">
+              <h3 className="font-[Impact] text-red-600 text-2xl [-webkit-text-stroke:0.5px_white]">
                 FACUNDO ARIEL CEJAS
               </h3>
 
-              <span id="pieDeNombre" className="text-xs opacity-90 mb-15 max-w-[75%]">
+              <span className="font-[Codec Pro] text-white text-xs opacity-90 mb-10 max-w-[75%]">
                 Entrenador Personal & Instructor en musculación
               </span>
 
@@ -89,7 +86,7 @@ export default function Section2() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative w-[90%] md:w-[85%] mx-auto h-70 rounded-xl overflow-hidden shadow-md flex flex-col justify-center p-4 pb-0 text-white"
+            className="relative w-[90%] md:w-[85%] mx-auto h-[280px] rounded-xl overflow-hidden shadow-md flex flex-col justify-center p-4 pb-0 text-white"
           >
             <Image
               src="/faka2.jpg"
@@ -103,11 +100,11 @@ export default function Section2() {
 
             <div className="relative z-10 flex flex-col items-start gap-0 text-start max-w-[95%]">
 
-              <h3 id="nombres" className="text-2xl [-webkit-text-stroke:0.5px_white]">
+              <h3 className="font-[Impact] text-red-600 text-2xl [-webkit-text-stroke:0.5px_white]">
                 FACUNDO PEDRO TRABA
               </h3>
 
-              <span id="pieDeNombre" className="text-xs opacity-90 mb-10 max-w-[70%]">
+              <span  className="font-[Codec Pro] text-white text-xs opacity-90 mb-10 max-w-[70%]">
                 Entrenador & Counselor Psicológico Deportivo
               </span>
 

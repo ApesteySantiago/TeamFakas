@@ -33,8 +33,7 @@ export default function Navbar() {
         {/* Opciones que salen sin agrandar el botón */}
         {isOpen && (
           <div
-            id="boxMenu"
-            className="absolute top-full left-0 w-11 bg-gray-800 text-sm shadow-lg"
+            className="absolute top-full left-0 w-11 bg-[#dd9c19] rounded-md backdrop-blur-[10px] text-sm shadow-lg"
           >
             <a
                href="#"

@@ -25,12 +25,12 @@ function PlanCard({ title, image, features, price }: {
         sizes="(max-width: 768px) 90vw, 280px"
       />
 
-      <h3 className="titulo-cards mb-5 text-center [-webkit-text-stroke:1px_white]">
+      <h3 className="font-[Impact] text-red-600 text-5xl mb-5 text-center [-webkit-text-stroke:1px_white]">
         {title}
       </h3>
 
       <div className="mt-auto">
-        <ul className="subtitulo-cards text-sm text-white space-y-0">
+        <ul className="font-['Codec_Pro'] text-sm text-white space-y-0">
           {features.map((item, index) => (
             <li key={index}>✔ {item}</li>
           ))}
@@ -59,13 +59,12 @@ export default function Section5() {
         {/* Zona superior: títulos */}
         <div className="flex flex-col items-center justify-center pt-10">
           <h1
-            id="titulo5"
-            className="text-center text-2xl [-webkit-text-stroke:1px_white]"
+            className="font-[Impact] text-red-600 text-4xl sm:text-5xl lg:text-6xl text-center  [-webkit-text-stroke:1px_white]"
           >
             PLANES
           </h1>
 
-          <h2 id="subtitulo5" className="pt-2 text-center">
+          <h2 className="font-[Codec Pro] text-white tracking-[7px] -mt-4 text-sm sm:text-base md:text-lg pt-2 text-center">
             ELEGÍ TU MEJOR OPCIÓN
           </h2>
         </div>

@@ -1,37 +1,37 @@
+import Image from 'next/image';
 import XLogo from '../public/assets/logo-white.png';
 import InstagramLogo from '../public/assets/instagram-icon.svg';
 import GmailLogo from '../public/assets/gmail.svg';
 
 
-export default function Section6() {
+export default function Section8() {
   return (
-    <section id="section7" className="flex flex-col h-screen snap-start items-center justify-center">
+    <section className="min-h-screen bg-[url('/Planes.png')] bg-center bg-[length:120%_100%] flex flex-col h-screen snap-start items-center justify-center">
       <div
         className="flex flex-col rounded-lg items-center justify-center"
       >
-        <h1 id="titulo6" className="flex justify-center text-center font-2xl [-webkit-text-stroke:1px_white]">¡GRACIAS POR VISITAR TEAM FAKAS!</h1>
-        <h2 id="subtitulo6" className="flex justify-center pt-2 ">¡TE ESPERAMOS PRONTO!</h2>
+        <h1 className="font-[Impact] text-red-600 text-4xl sm:text-5xl lg:text-6xl flex justify-center text-center [-webkit-text-stroke:1px_white]">¡GRACIAS POR VISITAR TEAM FAKAS!</h1>
+        <h2 className="font-[Codec Pro] text-white tracking-[7px] -mt-4 text-sm sm:text-base md:text-lg flex justify-center pt-2 ">¡TE ESPERAMOS PRONTO!</h2>
 
-
-
-        <ul id="redes" className="flex flex-row justify-center space-x-6 mt-4">
+        <ul className="flex flex-row justify-center space-x-6 mt-4">
           <li>
             <a href="https://www.instagram.com/teamfakas/" target="_blank" rel="noopener noreferrer">  
-              <img src={InstagramLogo.src} alt="Instagram" className="h-8 w-8 hover:scale-150 transition-transform duration-300" /> 
+              <Image src={InstagramLogo} alt="Instagram" width={32} height={32} className="h-8 w-8 hover:scale-150 transition-transform duration-300" /> 
             </a>
           </li>
           <li>
             <a href="#" target="_blank" rel="noopener noreferrer">  
-              <img src={GmailLogo.src} alt="Facebook" className="h-8 w-8 hover:scale-150 transition-transform duration-300" /> 
+              <Image src={GmailLogo} alt="Gmail" width={32} height={32} className="h-8 w-8 hover:scale-150 transition-transform duration-300" /> 
             </a>
           </li>
           <li>
             <a href="https://www.twitter.com/teamfakas" target="_blank" rel="noopener noreferrer">  
-              <img src={XLogo.src} alt="Twitter" className="h-8 w-8 hover:scale-150 transition-transform duration-300" /> 
+              <Image src={XLogo} alt="Twitter" width={32} height={32} className="h-8 w-8 hover:scale-150 transition-transform duration-300" /> 
             </a>
           </li>
         </ul>
       </div>
+
     </section>
   );
 }

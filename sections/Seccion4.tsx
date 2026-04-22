@@ -9,11 +9,11 @@ export default function Section4() {
         transition={{ duration: 1.5, ease: "easeOut" }} // tiempo y suavizado
         className="flex flex-col rounded-lg items-center justify-center"
       >
-        <h1 id="titulo4" className="flex justify-center text-center font-2xl">QUE TE OFRECEMOS</h1>
-        <h2 id="subtitulo4" className="flex justify-center pt-2 ">QUEREMOS INCULCARTE EL ARTE DEL TREINO</h2>
+        <h1 className="flex justify-center text-center font-[Impact] text-red-600 text-5xl">QUE TE OFRECEMOS</h1>
+        <h2 className="flex justify-center pt-2 font-['Codec_Pro'] text-white tracking-[7px] -mt-4">QUEREMOS INCULCARTE EL ARTE DEL TREINO</h2>
 
-        <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
-          <h3 className="titulo-cards">📌ENTRENAMIENTO</h3>
+        <div className="font-['Codec_Pro'] text-white text-base p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
+          <h3 className="font-[Impact] text-red-600 text-5xl">📌ENTRENAMIENTO</h3>
           <p className="text-start">
 
             • Planes adaptados a tu nivel y objetivo<br></br>
@@ -23,8 +23,8 @@ export default function Section4() {
             • Análisis de ejecución por video<br></br></p>
         </div>
 
-        <div id="descripcion" className="p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
-          <h3 className="titulo-cards">📌 NUTRICIÓN</h3>
+        <div className="font-['Codec_Pro'] text-white text-base p-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
+          <h3 className="font-[Impact] text-red-600 text-5xl">📌 NUTRICIÓN</h3>
           <p className="text-start">
             • Guía alimentaria personalizada según tus necesidades<br></br>
             • Guía de Macronutrientres y Micronutrientes<br></br>
@@ -34,8 +34,8 @@ export default function Section4() {
           </p>
         </div>
 
-        <div id="descripcion" className="p-2 mb-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
-          <h3 className="titulo-cards">📌 MINDSET & TRANSFORMACIÓN</h3>
+        <div className="font-['Codec_Pro'] text-white text-base p-2 mb-4 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
+          <h3 className="font-[Impact] text-red-600 text-5xl">📌 MINDSET & TRANSFORMACIÓN</h3>
           <p className="text-start">
             • Manejo de emociones y estrés durante el proceso.<br></br>
             • Construcción de mentalidad disciplinada y orientada a objetivos.<br></br>
