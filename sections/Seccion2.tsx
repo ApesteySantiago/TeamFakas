@@ -13,11 +13,9 @@ export default function Section2() {
           <h1 className="[-webkit-text-stroke:1px_white] font-[Impact] text-red-600 text-[clamp(2rem,15vw,4rem)]">
             ENTRENADORES
           </h1>
-          <h2 className="font-['Codec_Pro'] text-white tracking-[1px] -mt-2 text-sm">
+          <h2 className="font-['Codec_Pro'] text-white tracking-[1px] -mt-2 mb-25 text-sm">
             QUIENES ESTAN DETRAS DE TEAMFAKAS
           </h2>
-          {/* LÍNEA SEPARADORA */}
-          <div className="h-[15px]" />
         </div>
 
         {/* GRID */}
@@ -50,7 +48,7 @@ export default function Section2() {
             </div>
 
             {/* ZONA INFERIOR — Certificaciones */}
-            <div className="absolute bottom-0 right-0 z-10 p-3 text-end w-full">
+            <div className="absolute bottom-2 min-[375px]:bottom-10 right-3 z-10 p-2 text-end w-[70%]">
               <p className="text-[10px] leading-snug text-white/90">
                 Cert. Internacional Mr. Olympia - Bodybuilding & Fitness Trainer.<br />
                 Cert. Internacional High Fitness Trainer.<br />
@@ -87,7 +85,7 @@ export default function Section2() {
             </div>
 
             {/* ZONA INFERIOR — Certificaciones */}
-            <div className="absolute bottom-0 left-0 z-10 p-3 text-start w-full">
+            <div className="absolute bottom-2 min-[375px]:bottom-10 left-3 z-10 p-2 text-start w-[70%]">
               <p className="text-[10px] leading-snug text-white/90">
                 Cert. Internacional Mr. Olympia - Fitness Trainer.<br />
                 Counseling y acompañamiento emocional para deportistas.<br />
