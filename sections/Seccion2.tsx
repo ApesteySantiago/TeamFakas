@@ -13,7 +13,7 @@ export default function Section2() {
           <h1 className="[-webkit-text-stroke:1px_white] font-[Impact] text-red-600 text-[clamp(2rem,15vw,4rem)]">
             ENTRENADORES
           </h1>
-          <h2 className="font-['Codec_Pro'] text-white tracking-[1px] -mt-2 mb-25 text-sm">
+          <h2 className="font-['Codec_Pro'] text-white tracking-[1px] -mt-2 mb-[20vw] text-sm">
             QUIENES ESTAN DETRAS DE TEAMFAKAS
           </h2>
         </div>
