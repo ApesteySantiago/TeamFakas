@@ -5,7 +5,7 @@ export default function PrincipalBis() {
   return (
     <section className="h-dvh bg-[url('/Fondo_Gym.jpg')] bg-no-repeat bg-center bg-[length:100%_100%] snap-start flex items-center justify-center overflow-hidden">
 
-      <div className="grid gap-1 w-full mx-auto text-center overflow-hidden">
+      <div className="grid gap-1 w-full max-w-sm mx-auto text-center overflow-hidden px-4">
 
         {/* IMAGEN */}
         <motion.div
@@ -30,9 +30,9 @@ export default function PrincipalBis() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.6 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
-          className="w-full mx-auto"
+          className="w-full -mt-2"
         >
-          <h1 className="flex justify-center text-[clamp(2.8rem,17vw,4.5rem)] [-webkit-text-stroke:1px_white] font-[Impact] text-red-600">
+          <h1 className="flex justify-center text-[clamp(2.8rem,13vw,4.5rem)] [-webkit-text-stroke:1px_white] font-[Impact] text-red-600">
             TEAM FAKAS
           </h1>
         </motion.div>

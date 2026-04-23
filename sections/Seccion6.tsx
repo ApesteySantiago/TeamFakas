@@ -1,6 +1,6 @@
 export default function Section6() {
     return (
-        <section className="h-dvh bg-[url('/mujer_vs_ia.png')] bg-center bg-[length:120%_100%] flex flex-col snap-start items-center justify-center">
+        <section className="h-dvh bg-[url('/mujer_vs_ia.png')] bg-center bg-[length:120%_100%] bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col snap-start items-center justify-center">
             <div
                 className="flex flex-col rounded-lg items-center justify-center"
             >
@@ -10,7 +10,7 @@ export default function Section6() {
                 <div className="font-[Codec Pro] text-white text-base p-2 translate-y-20 flex bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-lg text-center w-fit max-w-[90%] mx-auto">
                     <p className="text-center p-4">La IA es ciega ante tu cansancio, tus miedos o ese fuego que te empuja a seguir cuando el cuerpo ya no responde. Una IA te tira una receta vacía; nosotros te damos el camino que necesitás.<br></br><br></br>
 
-                    Confiar tu salud a una aplicación es quedarte solo en el momento más difícil. En Teamfakas, entendemos que detrás de cada entrenamiento hay una historia, una lucha y una persona real que merece ser escuchada, no procesada.
+                        Confiar tu salud a una aplicación es quedarte solo en el momento más difícil. En Teamfakas, entendemos que detrás de cada entrenamiento hay una historia, una lucha y una persona real que merece ser escuchada, no procesada.
 
                     </p>
                 </div>
