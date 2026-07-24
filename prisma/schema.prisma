@@ -1,0 +1,168 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  user
+  teacher
+  admin
+}
+
+enum OrderStatus {
+  pending
+  paid
+  shipped
+  delivered
+  cancelled
+}
+
+model Profile {
+  id         String   @id @default(uuid()) @db.Uuid
+  email      String   @unique
+  fullName   String?  @map("full_name")
+  avatarUrl  String?  @map("avatar_url")
+  role       UserRole @default(user)
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  orders       Order[]
+  courses      Course[]      @relation("TeacherCourses")
+  exercisePrograms ExerciseProgram[] @relation("TeacherPrograms")
+
+  @@map("profiles")
+}
+
+model Category {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String
+  slug        String   @unique
+  description String?
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  products Product[]
+
+  @@map("categories")
+}
+
+model Product {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String
+  description String?
+  price       Decimal  @db.Decimal(10, 2)
+  imageUrl    String?  @map("image_url")
+  categoryId  String?  @map("category_id")
+  stock       Int      @default(0)
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  category  Category? @relation(fields: [categoryId], references: [id])
+  orderItems OrderItem[]
+
+  @@map("products")
+}
+
+model Order {
+  id        String      @id @default(uuid()) @db.Uuid
+  userId    String      @map("user_id")
+  total     Decimal     @db.Decimal(10, 2)
+  status    OrderStatus @default(pending)
+  createdAt DateTime    @default(now()) @map("created_at")
+  updatedAt DateTime    @updatedAt @map("updated_at")
+
+  user  Profile     @relation(fields: [userId], references: [id])
+  items OrderItem[]
+
+  @@map("orders")
+}
+
+model OrderItem {
+  id        String  @id @default(uuid()) @db.Uuid
+  orderId   String  @map("order_id")
+  productId String  @map("product_id")
+  quantity  Int
+  price     Decimal @db.Decimal(10, 2)
+
+  order   Order   @relation(fields: [orderId], references: [id])
+  product Product @relation(fields: [productId], references: [id])
+
+  @@map("order_items")
+}
+
+model Course {
+  id          String   @id @default(uuid()) @db.Uuid
+  title       String
+  description String?
+  imageUrl    String?  @map("image_url")
+  teacherId   String   @map("teacher_id")
+  price       Decimal  @default(0) @db.Decimal(10, 2)
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  teacher Profile @relation("TeacherCourses", fields: [teacherId], references: [id])
+  modules Module[]
+
+  @@map("courses")
+}
+
+model Module {
+  id        String   @id @default(uuid()) @db.Uuid
+  courseId   String   @map("course_id")
+  title     String
+  order     Int
+  createdAt DateTime @default(now()) @map("created_at")
+
+  course   Course    @relation(fields: [courseId], references: [id])
+  lessons  Lesson[]
+
+  @@map("modules")
+}
+
+model Lesson {
+  id        String   @id @default(uuid()) @db.Uuid
+  moduleId  String   @map("module_id")
+  title     String
+  content   String?
+  videoUrl  String?  @map("video_url")
+  order     Int
+  createdAt DateTime @default(now()) @map("created_at")
+
+  module Module @relation(fields: [moduleId], references: [id])
+
+  @@map("lessons")
+}
+
+model ExerciseProgram {
+  id          String   @id @default(uuid()) @db.Uuid
+  title       String
+  description String?
+  teacherId   String   @map("teacher_id")
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  teacher  Profile          @relation("TeacherPrograms", fields: [teacherId], references: [id])
+  sessions ExerciseSession[]
+
+  @@map("exercise_programs")
+}
+
+model ExerciseSession {
+  id          String   @id @default(uuid()) @db.Uuid
+  programId   String   @map("program_id")
+  title       String
+  description String?
+  duration    Int?
+  order       Int
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  program ExerciseProgram @relation(fields: [programId], references: [id])
+
+  @@map("exercise_sessions")
+}
